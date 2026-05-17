@@ -1,9 +1,17 @@
 {
   "name": "bee-keeper",
   "version": "1.0.0",
-  "description": "Enterprise forensic intelligence layer for IBM Bob - Mainframe analysis and diagnostics",
+  "description": "Enterprise forensic intelligence layer for IBM Bob - Mainframe ABEND analysis and diagnostics",
   "type": "module",
   "main": "src/mcp-server/index.js",
+  "homepage": "https://github.com/suyogs1/BeeKeeper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suyogs1/BeeKeeper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suyogs1/BeeKeeper/issues"
+  },
   "scripts": {
     "start": "node src/mcp-server/index.js",
     "dev": "node --watch src/mcp-server/index.js",
@@ -18,13 +26,22 @@
     "mcp",
     "mainframe",
     "forensics",
-    "ibm",
-    "bob",
+    "ibm-bob",
+    "abend",
     "jcl",
-    "diagnostics"
+    "assembler",
+    "rca",
+    "diagnostics",
+    "enterprise",
+    "incident-response",
+    "watsonx"
   ],
-  "author": "",
+  "author": "Bee-Keeper Team",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0"
   },

@@ -1,0 +1,21 @@
+# Screenshots Directory
+
+This directory contains visual documentation for the Bee-Keeper project.
+
+## Expected Screenshots
+
+1. **war-room-dashboard.png** - Incident War Room main interface
+2. **mermaid-blast-radius.png** - Dependency visualization with color-coded status
+3. **rca-report.png** - Generated Root Cause Analysis report
+4. **orchestration-workflow.png** - Multi-agent orchestration console output
+5. **bob-mcp-integration.png** - IBM Bob MCP tool integration
+
+## Guidelines
+
+- Use 1920x1080 resolution for consistency
+- Capture full browser window for War Room screenshots
+- Use dark theme for all captures
+- Ensure text is readable at GitHub preview size
+- Include relevant context (headers, timestamps, etc.)
+
+// Made with Bob

@@ -2,9 +2,9 @@
 
 **ABEND Code:** S0C7  
 **Offset:** X'B4'  
-**Confidence Score:** 60%  
+**Confidence Score:** 73%  
 **Severity:** CRITICAL  
-**Generated:** 2026-05-15T18:41:11.306Z  
+**Generated:** 2026-05-17T06:51:50.172Z  
 
 ---
 
