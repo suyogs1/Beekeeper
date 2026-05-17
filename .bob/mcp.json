@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "bee-keeper": {
+      "command": "node",
+      "args": ["src/mcp-server/index.js"],
+      "cwd": "${workspaceFolder}",
+      "env": {},
+      "disabled": false,
+      "alwaysAllow": []
+    }
+  }
+}
+
+

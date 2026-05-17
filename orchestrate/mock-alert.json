@@ -1,0 +1,13 @@
+{
+  "alert_id": "ALT-2026-05-15-001",
+  "timestamp": "2026-05-15T19:00:00Z",
+  "source": "MAINFRAME_MONITOR",
+  "severity": "CRITICAL",
+  "abend_code": "S0C7",
+  "offset": "XB4",
+  "job_name": "PAYRL001",
+  "module_name": "TAXCALC",
+  "jcl_file_path": "./jobs/payrl001.jcl",
+  "asm_file_path": "./src/taxcalc.asm",
+  "description": "Data exception in payroll tax calculation module"
+}

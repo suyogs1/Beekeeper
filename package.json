@@ -1,0 +1,32 @@
+{
+  "name": "bee-keeper",
+  "version": "1.0.0",
+  "description": "Enterprise forensic intelligence layer for IBM Bob - Mainframe analysis and diagnostics",
+  "type": "module",
+  "main": "src/mcp-server/index.js",
+  "scripts": {
+    "start": "node src/mcp-server/index.js",
+    "dev": "node --watch src/mcp-server/index.js",
+    "test": "node test-parser.js",
+    "test:jcl": "node test-parser.js",
+    "test:asm": "node test-asm-decompiler.js",
+    "test:rca": "node test-abend-tracer.js",
+    "test:workflow": "node test-rca-workflow.js",
+    "orchestrate": "node orchestrate/orchestrate-demo.js"
+  },
+  "keywords": [
+    "mcp",
+    "mainframe",
+    "forensics",
+    "ibm",
+    "bob",
+    "jcl",
+    "diagnostics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {}
+}

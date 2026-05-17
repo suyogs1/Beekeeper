@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Bob sessions (optional - keep if needed for debugging)
+# .bob/bob_sessions/*
+# !.bob/bob_sessions/.gitkeep
+
+# Build outputs
+dist/
+build/
+
+# Made with Bob
