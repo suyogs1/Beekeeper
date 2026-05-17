@@ -156,7 +156,14 @@ async function orchestrateIncidentResponse() {
 }
 
 // Execute if run directly
-if (import.meta.url === `file://${process.argv[1]}`) {
+// Check if this module is being run directly (works cross-platform)
+const isMainModule = process.argv[1] && (
+  import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}` ||
+  import.meta.url === `file://${process.argv[1].replace(/\\/g, '/')}` ||
+  import.meta.url.endsWith(process.argv[1].replace(/\\/g, '/'))
+);
+
+if (isMainModule) {
   orchestrateIncidentResponse()
     .then(() => process.exit(0))
     .catch(error => {
